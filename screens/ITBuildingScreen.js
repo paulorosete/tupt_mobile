@@ -54,14 +54,14 @@ const ITBuildingScreen = () => {
 
   // Enhanced organizational structure
   const orgChart = [
-    { id: 1, name: 'Prof. Julius Delfin Silang', position: 'Department Head', image: require('../assets/jds.jpg'), color: '#667eea' },
-    { id: 2, name: 'Prof. Pops Madriaga', position: 'Associate Head', image: require('../assets/pops.png'), color: '#f093fb' },
-    { id: 3, name: 'Prof. Maracris Lappay', position: 'Faculty', image: require('../assets/lapay.png'), color: '#48cae4' },
-    { id: 4, name: 'Prof. Rico Santos', position: 'Faculty', image: require('../assets/rico.jpg'), color: '#06ffa5' },
-    { id: 5, name: 'Prof. Rommel Dalisay', position: 'Faculty', image: require('../assets/dalisay.jpg'), color: '#ffbe0b' },
-    { id: 6, name: 'Prof. Nestor Valdez', position: 'Faculty', image: require('../assets/nestor.jpg'), color: '#fb8500' },
-    { id: 7, name: 'Prof. Cristina Baloloy', position: 'Faculty', image: require('../assets/baloloy.jpg'), color: '#8ecae6' },
-    { id: 8, name: 'Yanyan Motol', position: 'Faculty Assistant', image: require('../assets/yanyan.jpg'), color: '#ffb3c6' },
+    { id: 1, name: 'Prof. Julius Delfin Silang', position: 'Department Head', image: require('../assets/defaultprofile.jpg'), color: '#667eea' },
+    { id: 2, name: 'Prof. Pops Madriaga', position: 'Associate Head', image: require('../assets/defaultprofile.jpg'), color: '#f093fb' },
+    { id: 3, name: 'Prof. Maracris Lappay', position: 'Faculty', image: require('../assets/defaultprofile.jpg'), color: '#48cae4' },
+    { id: 4, name: 'Prof. Rico Santos', position: 'Faculty', image: require('../assets/defaultprofile.jpg'), color: '#06ffa5' },
+    { id: 5, name: 'Prof. Rommel Dalisay', position: 'Faculty', image: require('../assets/defaultprofile.jpg'), color: '#ffbe0b' },
+    { id: 6, name: 'Prof. Nestor Valdez', position: 'Faculty', image: require('../assets/defaultprofile.jpg'), color: '#fb8500' },
+    { id: 7, name: 'Prof. Cristina Baloloy', position: 'Faculty', image: require('../assets/defaultprofile.jpg'), color: '#8ecae6' },
+    { id: 8, name: 'Yanyan Motol', position: 'Faculty Assistant', image: require('../assets/defaultprofile.jpg'), color: '#ffb3c6' },
   ];
 
   const facilities = [

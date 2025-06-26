@@ -37,7 +37,7 @@ const CivilBuildingScreen = () => {
       code: 'BSCE', 
       name: 'Bachelor of Science in Civil Engineering', 
       description: 'Must be STEM SHS graduate\n\nLearn the fundamentals of programming (Database, C++, HTML, and more), Computer Hardware, Computer Software, Networking, and more!',
-      icon: '🎓',
+      icon: '🌉',
       duration: '4 years',
       color: '#667eea'
     },
@@ -46,7 +46,7 @@ const CivilBuildingScreen = () => {
       code: 'BSES', 
       name: 'Bachelor of Science in Environmental Science', 
       description: 'Must be SHS graduate in any strand\n\nLearn the fundamentals of programming (Database, C++, HTML, and more), Computer Hardware, Computer Software, Networking, and more!',
-      icon: '💻',
+      icon: '🌍',
       duration: '4 years',
       color: '#f093fb'
     },
@@ -56,7 +56,7 @@ const CivilBuildingScreen = () => {
       code: 'BCT', 
       name: 'Bachelor in Chemical Technology', 
       description: 'Must be SHS graduate in any strand\n\nLearn the fundamentals of programming (Database, C++, HTML, and more), Computer Hardware, Computer Software, Networking, and more!',
-      icon: '💻',
+      icon: '⚗️',
       duration: '4 years',
       color: '#f093fb'
     },
@@ -64,29 +64,29 @@ const CivilBuildingScreen = () => {
 
   // Enhanced organizational structure - All Faculty (original list)
   const orgChart = [
-    { id: 1, name: 'Engr. Maricel S. Ochoa ', position: 'Section Head', image: require('../assets/jds.jpg'), color: '#667eea' },
-    { id: 2, name: 'Engr. Catherine S. Hernandez ', position: 'Faculty ', image: require('../assets/pops.png'), color: '#fb8500' },
-    { id: 3, name: 'Engr. Roilene C. Pagatpat', position: 'Faculty', image: require('../assets/lapay.png'), color: '#fb8500' },
-    { id: 4, name: 'Engr. Christian Paul N. Miana', position: 'Faculty', image: require('../assets/rico.jpg'), color: '#fb8500' },
-    { id: 5, name: 'Engr. Kriselle Joy L. Hernandez ', position: 'Faculty', image: require('../assets/dalisay.jpg'), color: '#fb8500' },
-    { id: 6, name: 'Engr. Jenny B. Siva ', position: 'Faculty', image: require('../assets/nestor.jpg'), color: '#fb8500' },
-    { id: 7, name: 'Engr. Roldan C. Dayson ', position: 'Faculty', image: require('../assets/baloloy.jpg'), color: '#fb8500' },
-    { id: 8, name: 'Engr. John Bryne N. Rose ', position: 'Faculty ', image: require('../assets/yanyan.jpg'), color: '#fb8500' },
-    { id: 9, name: 'Engr. Christine Joy S. Bayato ', position: 'Faculty ', image: require('../assets/yanyan.jpg'), color: '#fb8500' },
-    { id: 10, name: 'Dr. Norway J. Pangan  ', position: 'Faculty ', image: require('../assets/yanyan.jpg'), color: '#fb8500' },
-    { id: 11, name: 'Arch. Celesta Dawn S. Reyes-Belmonte ', position: 'Faculty ', image: require('../assets/yanyan.jpg'), color: '#fb8500' },
-    { id: 12, name: 'Engr. John Manuel B. Vergel ', position: 'Faculty ', image: require('../assets/yanyan.jpg'), color: '#fb8500' },
+    { id: 1, name: 'Engr. Maricel S. Ochoa ', position: 'Section Head', image: require('../assets/defaultprofile.jpg'), color: '#667eea' },
+    { id: 2, name: 'Engr. Catherine S. Hernandez ', position: 'Faculty ', image: require('../assets/defaultprofile.jpg'), color: '#fb8500' },
+    { id: 3, name: 'Engr. Roilene C. Pagatpat', position: 'Faculty', image: require('../assets/defaultprofile.jpg'), color: '#fb8500' },
+    { id: 4, name: 'Engr. Christian Paul N. Miana', position: 'Faculty', image: require('../assets/defaultprofile.jpg'), color: '#fb8500' },
+    { id: 5, name: 'Engr. Kriselle Joy L. Hernandez ', position: 'Faculty', image: require('../assets/defaultprofile.jpg'), color: '#fb8500' },
+    { id: 6, name: 'Engr. Jenny B. Siva ', position: 'Faculty', image: require('../assets/defaultprofile.jpg'), color: '#fb8500' },
+    { id: 7, name: 'Engr. Roldan C. Dayson ', position: 'Faculty', image: require('../assets/defaultprofile.jpg'), color: '#fb8500' },
+    { id: 8, name: 'Engr. John Bryne N. Rose ', position: 'Faculty ', image: require('../assets/defaultprofile.jpg'), color: '#fb8500' },
+    { id: 9, name: 'Engr. Christine Joy S. Bayato ', position: 'Faculty ', image: require('../assets/defaultprofile.jpg'), color: '#fb8500' },
+    { id: 10, name: 'Dr. Norway J. Pangan  ', position: 'Faculty ', image: require('../assets/defaultprofile.jpg'), color: '#fb8500' },
+    { id: 11, name: 'Arch. Celesta Dawn S. Reyes-Belmonte ', position: 'Faculty ', image: require('../assets/defaultprofile.jpg'), color: '#fb8500' },
+    { id: 12, name: 'Engr. John Manuel B. Vergel ', position: 'Faculty ', image: require('../assets/defaultprofile.jpg'), color: '#fb8500' },
   ];
 
   // Duplicate the same faculty list for additional tabs
   const facultyGroup2 = [
-     { id: 1, name: 'Dr. Norway Pangan', position: 'Department Head', image: require('../assets/jds.jpg'), color: '#667eea' },
-    { id: 2, name: 'Mr. Cristopher B. Paramis ', position: 'ES and CHT Section Head ', image: require('../assets/pops.png'), color: '#f093fb' },
-    { id: 3, name: 'Emmanuel Ferrer Ph.D', position: 'Faculty', image: require('../assets/lapay.png'), color: '#fb8500' },
-      { id: 4, name: 'Engr. Atlas Adonis Cerbo', position: 'Faculty', image: require('../assets/lapay.png'), color: '#fb8500' },
-        { id: 5, name: 'Engr. Nellie Torres', position: 'Faculty', image: require('../assets/lapay.png'), color: '#fb8500' },
-          { id: 6, name: 'Engr. Jenilie Granado', position: 'Faculty', image: require('../assets/lapay.png'), color: '#fb8500' },
-           { id: 7, name: 'Ms. Geceline Estorcio', position: 'Faculty', image: require('../assets/lapay.png'), color: '#fb8500' },
+     { id: 1, name: 'Dr. Norway Pangan', position: 'Department Head', image: require('../assets/defaultprofile.jpg'), color: '#667eea' },
+    { id: 2, name: 'Mr. Cristopher B. Paramis ', position: 'ES and CHT Section Head ', image: require('../assets/defaultprofile.jpg'), color: '#f093fb' },
+    { id: 3, name: 'Emmanuel Ferrer Ph.D', position: 'Faculty', image: require('../assets/defaultprofile.jpg'), color: '#fb8500' },
+      { id: 4, name: 'Engr. Atlas Adonis Cerbo', position: 'Faculty', image: require('../assets/defaultprofile.jpg'), color: '#fb8500' },
+        { id: 5, name: 'Engr. Nellie Torres', position: 'Faculty', image: require('../assets/defaultprofile.jpg'), color: '#fb8500' },
+          { id: 6, name: 'Engr. Jenilie Granado', position: 'Faculty', image: require('../assets/defaultprofile.jpg'), color: '#fb8500' },
+           { id: 7, name: 'Ms. Geceline Estorcio', position: 'Faculty', image: require('../assets/defaultprofile.jpg'), color: '#fb8500' },
   ];
   
 
@@ -236,7 +236,7 @@ const CivilBuildingScreen = () => {
           </TouchableOpacity>
         </View>
         <View style={styles.headerContent}>
-          <Text style={styles.buildingIcon}>💻</Text>
+          <Text style={styles.buildingIcon}>🏗️</Text>
           <Text style={styles.title}>Civil Engineering</Text>
           <Text style={styles.subtitle}>BSCE, BSCT, & BSES Center</Text>
         </View>

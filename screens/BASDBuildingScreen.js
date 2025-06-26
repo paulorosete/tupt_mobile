@@ -34,19 +34,37 @@ const BASDBuildingScreen = () => {
   const courses = [
     { 
       id: 1, 
-      code: 'BSIT-STEM', 
-      name: 'Bachelor of Science in Information Technology - STEM', 
-      description: 'Must be STEM SHS graduate\n\nLearn the fundamentals of programming (Database, C++, HTML, and more), Computer Hardware, Computer Software, Networking, and more!',
-      icon: '🎓',
+      code: 'Bachelor of Technical Vocational Teacher Education Major in:', 
+      name: 'Electronics Technology', 
+      description: 'The Bachelor of Technical Vocational Teacher Education, Major in Electronics Technology, prepares students to become skilled electronics teachers. The program combines hands-on training in electronics with teaching methods, helping graduates teach in schools, training centers, or work in the electronics industry.',
+      icon: '⚡',
       duration: '4 years',
       color: '#667eea'
     },
     { 
       id: 2, 
-      code: 'BSIT-NON-STEM', 
-      name: 'Bachelor of Science in Information Technology - Non-STEM', 
-      description: 'Must be SHS graduate in any strand\n\nLearn the fundamentals of programming (Database, C++, HTML, and more), Computer Hardware, Computer Software, Networking, and more!',
-      icon: '💻',
+      code: 'Bachelor of Technical Vocational Teacher Education Major in:', 
+      name: 'Electrical Technology', 
+      description: 'The Bachelor of Technical Vocational Teacher Education, Major in Electrical Technology, trains students to become effective electrical instructors. The program blends practical skills in electrical systems with teaching strategies, preparing graduates to work in schools, training centers, or the electrical industry.',
+      icon: '🔌',
+      duration: '4 years',
+      color: '#f093fb'
+    },
+    { 
+      id: 3, 
+      code: 'Bachelor of Technical Vocational Teacher Education Major in:', 
+      name: 'Computer Hardware', 
+      description: 'The Bachelor of Technical Vocational Teacher Education, Major in Computer Hardware, prepares students to teach and work in the field of computer hardware technology. The program combines hands-on training in computer assembly, repair, and maintenance with effective teaching methods for technical education.',
+      icon: '🖥️',
+      duration: '4 years',
+      color: '#f093fb'
+    },
+    { 
+      id: 4, 
+      code: 'Bachelor of Technical Vocational Teacher Education Major in:', 
+      name: 'Computer Programming', 
+      description: 'The Bachelor of Technical Vocational Teacher Education, Major in Computer Programming, equips students with programming skills and teaching techniques. The program focuses on coding, software development, and instructional methods to prepare graduates for careers in education and the tech industry.',
+      icon: '👨‍💻',
       duration: '4 years',
       color: '#f093fb'
     },
@@ -209,7 +227,7 @@ const BASDBuildingScreen = () => {
           </TouchableOpacity>
         </View>
         <View style={styles.headerContent}>
-          <Text style={styles.buildingIcon}>💻</Text>
+          <Text style={styles.buildingIcon}>🎨</Text>
           <Text style={styles.title}>BASD Building</Text>
           <Text style={styles.subtitle}>Basic Arts and Science Department</Text>
         </View>
@@ -253,7 +271,7 @@ const BASDBuildingScreen = () => {
         <View style={styles.modalContainer}>
           <View style={styles.modalContent}>
             <View style={styles.modalHeader}>
-              <Text style={styles.modalTitle}>🗺️ IT Building Directions</Text>
+              <Text style={styles.modalTitle}>🗺️ BASD Building Directions</Text>
               <TouchableOpacity style={styles.modalCloseButton} onPress={toggleImageModal}>
                 <Text style={styles.modalCloseText}>✕</Text>
               </TouchableOpacity>
