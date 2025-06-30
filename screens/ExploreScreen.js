@@ -59,7 +59,7 @@ const ExploreScreen = () => {
     { id: 0, name: 'IT Building', image: image1, category: 'Academic', description: 'Information Technology Center', icon: '💻' },
     { id: 1, name: 'Admin Building', image: image2, category: 'Administration', description: 'Administrative Offices', icon: '🏢' },
     { id: 2, name: 'BASD Building', image: image3, category: 'Academic', description: 'Business & Arts Sciences', icon: '📚' },
-    { id: 3, name: 'Italian Building', image: image4, category: 'Academic', description: 'International Programs', icon: '🇮🇹' },
+    { id: 3, name: 'Italian Building', image: image4, category: 'Academic', description: 'Electronics Engineering', icon: '🇮🇹' },
     { id: 4, name: 'Mechanical Building', image: image5, category: 'Academic', description: 'Engineering Department', icon: '⚙️' },
     { id: 5, name: 'Canteen', image: image6, category: 'Facilities', description: 'Dining & Food Court', icon: '🍽️' },
     { id: 6, name: 'Multi-purpose Hall', image: image7, category: 'Events', description: 'Events & Gatherings', icon: '🎭' },

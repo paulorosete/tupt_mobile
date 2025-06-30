@@ -106,11 +106,10 @@ const BASDBuildingScreen = () => {
   ];
 
   const facilities = [
-    { name: 'Computer Labs', floor: '3rd Floor', rooms: 'RM 301, RM 302, RM 303', icon: '💻', color: '#667eea' },
-    { name: 'Faculty Room', floor: '2nd Floor', rooms: 'RM 206', icon: '👨‍🏫', color: '#f093fb' },
-    { name: 'Conference Room', floor: '2nd Floor', rooms: 'RM 205', icon: '🏢', color: '#48cae4' },
-    { name: 'MTICS Office', floor: '2nd Floor', rooms: 'RM 204', icon: '🏛️', color: '#06ffa5' },
-    { name: 'Event Venue', floor: '4th Floor', rooms: 'RM 401', icon: '🎭', color: '#ffbe0b' },
+    { name: 'Alumni Office',floor: '2nd Floor', rooms: 'B201', icon: '🎓', color: '#667eea' },
+    { name: 'Assembly/Disassembly', floor: '1st Floor', rooms: 'BASD 113', icon: '🎭', color: '#f093fb' },
+    { name: 'Office of Department Head', floor: '1st Floor', rooms: 'B101', icon: '🏛️', color: '#48cae4' },
+    
   ];
 
   const CourseCard = ({ course }) => (
@@ -277,7 +276,7 @@ const BASDBuildingScreen = () => {
               </TouchableOpacity>
             </View>
             <Image 
-              source={require('../assets/itdirection.jpg')} 
+              source={require('../assets/BasdDir.jpg')} 
               style={styles.modalImage} 
               resizeMode="contain"
             />

@@ -31,22 +31,40 @@ const ItalianBuildingScreen = () => {
   };
 
   // Enhanced courses data
-  const courses = [
+   const courses = [
     { 
       id: 1, 
-      code: 'BSIT-STEM', 
-      name: 'Bachelor of Science in Information Technology - STEM', 
-      description: 'Must be STEM SHS graduate\n\nLearn the fundamentals of programming (Database, C++, HTML, and more), Computer Hardware, Computer Software, Networking, and more!',
-      icon: '🎓',
+      code: 'Bachelor of Technical Vocational Teacher Education Major in:', 
+      name: 'Electronics Technology', 
+      description: 'The Bachelor of Technical Vocational Teacher Education, Major in Electronics Technology, prepares students to become skilled electronics teachers. The program combines hands-on training in electronics with teaching methods, helping graduates teach in schools, training centers, or work in the electronics industry.',
+      icon: '⚡',
       duration: '4 years',
       color: '#667eea'
     },
     { 
       id: 2, 
-      code: 'BSIT-NON-STEM', 
-      name: 'Bachelor of Science in Information Technology - Non-STEM', 
-      description: 'Must be SHS graduate in any strand\n\nLearn the fundamentals of programming (Database, C++, HTML, and more), Computer Hardware, Computer Software, Networking, and more!',
-      icon: '💻',
+      code: 'Bachelor of Technical Vocational Teacher Education Major in:', 
+      name: 'Electrical Technology', 
+      description: 'The Bachelor of Technical Vocational Teacher Education, Major in Electrical Technology, trains students to become effective electrical instructors. The program blends practical skills in electrical systems with teaching strategies, preparing graduates to work in schools, training centers, or the electrical industry.',
+      icon: '🔌',
+      duration: '4 years',
+      color: '#f093fb'
+    },
+    { 
+      id: 3, 
+      code: 'Bachelor of Technical Vocational Teacher Education Major in:', 
+      name: 'Computer Hardware', 
+      description: 'The Bachelor of Technical Vocational Teacher Education, Major in Computer Hardware, prepares students to teach and work in the field of computer hardware technology. The program combines hands-on training in computer assembly, repair, and maintenance with effective teaching methods for technical education.',
+      icon: '🖥️',
+      duration: '4 years',
+      color: '#f093fb'
+    },
+    { 
+      id: 4, 
+      code: 'Bachelor of Technical Vocational Teacher Education Major in:', 
+      name: 'Computer Programming', 
+      description: 'The Bachelor of Technical Vocational Teacher Education, Major in Computer Programming, equips students with programming skills and teaching techniques. The program focuses on coding, software development, and instructional methods to prepare graduates for careers in education and the tech industry.',
+      icon: '👨‍💻',
       duration: '4 years',
       color: '#f093fb'
     },
@@ -54,22 +72,26 @@ const ItalianBuildingScreen = () => {
 
   // Enhanced organizational structure
   const orgChart = [
-    { id: 1, name: 'Prof. Julius Delfin Silang', position: 'Department Head', image: require('../assets/jds.jpg'), color: '#667eea' },
-    { id: 2, name: 'Prof. Pops Madriaga', position: 'Associate Head', image: require('../assets/pops.png'), color: '#f093fb' },
-    { id: 3, name: 'Prof. Maracris Lappay', position: 'Faculty', image: require('../assets/lapay.png'), color: '#48cae4' },
-    { id: 4, name: 'Prof. Rico Santos', position: 'Faculty', image: require('../assets/rico.jpg'), color: '#06ffa5' },
-    { id: 5, name: 'Prof. Rommel Dalisay', position: 'Faculty', image: require('../assets/dalisay.jpg'), color: '#ffbe0b' },
-    { id: 6, name: 'Prof. Nestor Valdez', position: 'Faculty', image: require('../assets/nestor.jpg'), color: '#fb8500' },
-    { id: 7, name: 'Prof. Cristina Baloloy', position: 'Faculty', image: require('../assets/baloloy.jpg'), color: '#8ecae6' },
-    { id: 8, name: 'Yanyan Motol', position: 'Faculty Assistant', image: require('../assets/yanyan.jpg'), color: '#ffb3c6' },
+    { id: 1, name: 'Prof. Julius Delfin Silang', position: 'Department Head', image: require('../assets/defaultprofile.jpg'), color: '#667eea' },
+    { id: 2, name: 'Prof. Pops Madriaga', position: 'Associate Head', image: require('../assets/defaultprofile.jpg'), color: '#f093fb' },
+    { id: 3, name: 'Prof. Maracris Lappay', position: 'Faculty', image: require('../assets/defaultprofile.jpg'), color: '#48cae4' },
+    { id: 4, name: 'Prof. Rico Santos', position: 'Faculty', image: require('../assets/defaultprofile.jpg'), color: '#06ffa5' },
+    { id: 5, name: 'Prof. Rommel Dalisay', position: 'Faculty', image: require('../assets/defaultprofile.jpg'), color: '#ffbe0b' },
+    { id: 6, name: 'Prof. Nestor Valdez', position: 'Faculty', image: require('../assets/defaultprofile.jpg'), color: '#fb8500' },
+    { id: 7, name: 'Prof. Cristina Baloloy', position: 'Faculty', image: require('../assets/defaultprofile.jpg'), color: '#8ecae6' },
+    { id: 8, name: 'Yanyan Motol', position: 'Faculty Assistant', image: require('../assets/defaultprofile.jpg'), color: '#ffb3c6' },
   ];
 
   const facilities = [
-    { name: 'Computer Labs', floor: '3rd Floor', rooms: 'RM 301, RM 302, RM 303', icon: '💻', color: '#667eea' },
-    { name: 'Faculty Room', floor: '2nd Floor', rooms: 'RM 206', icon: '👨‍🏫', color: '#f093fb' },
-    { name: 'Conference Room', floor: '2nd Floor', rooms: 'RM 205', icon: '🏢', color: '#48cae4' },
-    { name: 'MTICS Office', floor: '2nd Floor', rooms: 'RM 204', icon: '🏛️', color: '#06ffa5' },
-    { name: 'Event Venue', floor: '4th Floor', rooms: 'RM 401', icon: '🎭', color: '#ffbe0b' },
+     { name: 'Electrical Engineering Faculty', floor: '1st Floor', rooms: 'RD 111', icon: '👨‍🏫', color: '#667eea' },
+    { name: 'Electronics Laboratory', floor: '2nd Floor', rooms: 'RM 208', icon: '🔌', color: '#667eea' },
+    { name: 'Workshop Room', floor: '2nd Floor', rooms: 'RM 211', icon: '🛠️', color: '#f093fb' },
+    { name: 'Faculty Room', floor: '2nd Floor', rooms: 'RM 203', icon: '👨‍🏫', color: '#48cae4' },
+    { name: 'Automation Laboratory', floor: '2nd Floor', rooms: 'RM 209', icon: '🤖', color: '#06ffa5' },
+    { name: 'Computer Laboratory', floor: '2nd Floor', rooms: 'RM 210', icon: '💻', color: '#ffbe0b' },
+    { name: 'Function Room', floor: '2nd Floor', rooms: 'RM 204', icon: '⚙️', color: '#667eea' },
+    { name: 'Project Study Room', floor: '2nd Floor', rooms: 'RM 212', icon: '📚', color: '#667eea' },
+     { name: 'Tool Room', floor: '2nd Floor', rooms: 'RM 205', icon: '🧰', color: '#667eea' },
   ];
 
   const CourseCard = ({ course }) => (
@@ -236,7 +258,7 @@ const ItalianBuildingScreen = () => {
               </TouchableOpacity>
             </View>
             <Image 
-              source={require('../assets/itdirection.jpg')} 
+              source={require('../assets/italianDir.jpg')} 
               style={styles.modalImage} 
               resizeMode="contain"
             />
