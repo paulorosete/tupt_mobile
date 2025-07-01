@@ -161,7 +161,7 @@ const  LibraryScreen = () => {
               </TouchableOpacity>
             </View>
             <Image 
-              source={require('../assets/itdirection.jpg')} 
+              source={require('../assets/libDir.jpg')} 
               style={styles.modalImage} 
               resizeMode="contain"
             />
